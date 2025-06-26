@@ -88,10 +88,9 @@ class MainWindow(QMainWindow):
         import webbrowser
         project_page_url = r"https://github.com/xCaradhras/cartograph"
         webbrowser.open(project_page_url)
-        
+
     def show_about_dialog(self):
         """
         Show a modal popup with information about the application.
         """
         QMessageBox.information(self, "About Cartograph", "Cartograph\nVersion 1.0\nLicense: GPLv3")
-        
